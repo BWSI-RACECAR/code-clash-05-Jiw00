@@ -34,7 +34,7 @@ class Solution:
             if hi_string[x] == "h" and x != len(hi_string):
                 if hi_string[x+1] == "i":
                     count+=1
-
+        return count
         
 
 def main():
