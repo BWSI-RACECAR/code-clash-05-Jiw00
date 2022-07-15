@@ -31,7 +31,7 @@ class Solution:
         count = 0
         # TODO: Write code below to return an int with the solution to the prompt
         for x in range(len(hi_string)):
-            if hi_string[x] == "h" and x != len(hi_string):
+            if hi_string[x] == "h" and x != len(hi_string)-1:
                 if hi_string[x+1] == "i":
                     count+=1
         return count
